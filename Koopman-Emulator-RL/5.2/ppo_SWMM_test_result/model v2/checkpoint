@@ -1,0 +1,2 @@
+model_checkpoint_path: "ppo_SWMM_model.ckpt"
+all_model_checkpoint_paths: "ppo_SWMM_model.ckpt"
