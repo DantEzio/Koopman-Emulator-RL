@@ -1,0 +1,26 @@
+节点数据：
+T：240	N：572	M：11
+shape：T，N，M
+T：时间步
+N：节点个数
+M：数据项（Depth,Head,Volume,Lateral inflow,Total inflow,Flooding,COD,SS,TN,TP,NH4-N)
+data[时间][点位][什么数据]
+节点保留的数据：Depth（0），Total inflow（4），COD（6）
+入流数据：Lateral inflow（3)
+
+管段数据：
+T：240	N：533	M：10
+shape：T，N，M
+T：时间步
+N：管段个数
+M：数据项（Flow,Depth,Velocity,Volume,Capacity,COD,SS,TN,TP,NH4-N)
+data[时间][点位][什么数据]
+管段保留的数据：Depth（1），Flow（0），COD（5）
+
+Sub数据：
+T：240	N：118	M：13
+shape：T，N，M
+T：时间步
+N：sub个数
+M：数据项（precipitation,Snow depth,Evaporation,Infiltration,Runoff,GW Flow,GW Elev,Soil Moisture,COD,SS,TN,TP,NH4-N)
+data[时间][点位][什么数据]
