@@ -56,6 +56,6 @@ if __name__=='__main__':
         D_PPO = PPO.PPO(envS, step, batch_size, rain_num, 'ppo_DLEDMD', 'test')
         D_PPO.load_model()
         for rid in range(20):
-            r2=D_PPO.test(test_num,rid)
+            D_PPO.test(test_num,rid)
 
     

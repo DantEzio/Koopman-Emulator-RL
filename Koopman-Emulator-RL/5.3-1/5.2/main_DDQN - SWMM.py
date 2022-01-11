@@ -53,7 +53,7 @@ if __name__=='__main__':
     with g2.as_default():
         D_DQN = DDQN.DDQN(step=step,batch_size=batch_size,num_rain=rain_num,env=envS,t='dqn_SWMM',raindata='test')
         D_DQN.load_model()
-        r2=D_DQN.test(test_num)
+        D_DQN.test(test_num)
 
     
     

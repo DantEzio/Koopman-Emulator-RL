@@ -56,6 +56,6 @@ if __name__=='__main__':
     with g2.as_default():
         D_PPO = PPO.PPO(envS, step, batch_size, rain_num, 'ppo_SWMM', 'test')
         D_PPO.load_model()
-        r2=D_PPO.test(test_num)
+        D_PPO.test(test_num)
 
     

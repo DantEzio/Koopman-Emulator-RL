@@ -54,11 +54,11 @@ if __name__=='__main__':
     with g2.as_default():
         D_PPO = PPO.PPO(envS, step, batch_size, rain_num, 'ppo_Linear', 'test')
         D_PPO.load_model()
-        r2=D_PPO.test(test_num)
+        D_PPO.test(test_num)
     
     envS=env_SWMM.env_SWMM(date_time, date_t)
     g3=tf.Graph()
     with g3.as_default():
         D_PPO = PPO.PPO(envS, step, batch_size, rain_num, 'ppo_Linear', 'real')
         D_PPO.load_model()
-        r2=D_PPO.test(test_num)
+        D_PPO.test(test_num)

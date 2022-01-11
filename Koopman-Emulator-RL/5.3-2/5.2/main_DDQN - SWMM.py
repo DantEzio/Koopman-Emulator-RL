@@ -56,7 +56,7 @@ if __name__=='__main__':
         D_DQN = DDQN.DDQN(step=step,batch_size=batch_size,num_rain=rain_num,env=envS,t='dqn_SWMM',raindata='test')
         D_DQN.load_model()
         for rid in range(20):
-            r2=D_DQN.test(test_num,rid)
+            D_DQN.test(test_num,rid)
     
     
     
