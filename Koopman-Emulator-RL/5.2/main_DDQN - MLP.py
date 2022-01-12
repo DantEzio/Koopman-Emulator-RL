@@ -38,7 +38,7 @@ if __name__=='__main__':
     
     # Superparameters
     batch_size=240
-    step=4000
+    step=1000
     rain_num=4
     test_num=4
     
