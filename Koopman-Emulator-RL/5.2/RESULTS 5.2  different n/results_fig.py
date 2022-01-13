@@ -3,9 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-testid='dqn'#'dqn'
+testid='DQN'#'dqn'
 
-index=str(1000)
+index=str(2000)
 
 df_DLEDMD1=pd.read_csv('./final-results/'+testid+'_DLEDMD_test_result '+index+'/test '+testid+'_DLEDMDflooding_vs_t.csv')
 df_DLEDMD2=pd.read_csv('./final-results/'+testid+'_DLEDMD_test_result '+index+'/real '+testid+'_DLEDMDflooding_vs_t.csv')
